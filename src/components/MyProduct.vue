@@ -10,7 +10,6 @@
 
 <script>
 export default {
-  name: 'Myproduct',
   props: ['product'],
 }
 </script>
@@ -30,4 +29,5 @@ export default {
 
 .product-price {
   float: right;
-}</style>
+}
+</style>
