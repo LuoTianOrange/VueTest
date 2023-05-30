@@ -1,6 +1,6 @@
 <template>
   <div class="product" @click="$emit('myclick', product.id)">
-    <img :src="product.src" alt="">
+    <img :src="product.src" alt="props">
     <div class="product-text">
       <span>{{ product.name }}</span>
       <span class="product-price">{{ product.price }}</span>

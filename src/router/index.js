@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
+import MyProduct from '@/components/MyProduct.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    component: HomeView
+    component: MyProduct
   },
   {
     path: '/about',
