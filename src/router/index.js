@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import MyProduct from '@/components/MyProduct.vue'
+// import MyProduct from '@/components/MyProduct.vue'
+import ProductViewVue from '@/views/ProductView.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    component: MyProduct
+    component: ProductViewVue
   },
   {
     path: '/about',
